@@ -1,7 +1,7 @@
 
 local raindrops = {}
 
-function raindrops(n)
+local function raindrops(n)
     local res
     if n % 3 == 0 then
         res = (res or "") .. "Pling"
